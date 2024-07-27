@@ -2,6 +2,8 @@
 
 Darktile is a GPU rendered terminal emulator designed for tiling window managers. 
 
+This is a fork of [the original darktile](https://github.com/NotNoss/darktile) that has not been updated in a while.
+
 ![Demo](demo.gif)
 
 ## Features
@@ -29,12 +31,12 @@ Install dependencies:
 - `xorg-dev`
 - `libgl1-mesa-dev`
 
-Grab a binary from the [latest release](https://github.com/liamg/darktile/releases/latest), `chmod +x` it and place it in your `$PATH`.
+Grab a binary from the [latest release](https://github.com/NotNoss/darktile/releases/latest), `chmod +x` it and place it in your `$PATH`.
 
 If you're too lazy to do the above and you like to live life on the edge, you can pipe this script to sudo:
 
 ```bash
-curl -s "https://raw.githubusercontent.com/liamg/darktile/main/scripts/install.sh" | sudo bash
+curl -s "https://raw.githubusercontent.com/NotNoss/darktile/main/scripts/install.sh" | sudo bash
 ```
 
 ## Configuration
@@ -62,7 +64,7 @@ cursor:
 
 ### Example Theme
 
-Found in the config directory (see above) inside `theme.yaml`. You can replace this file with a symlink or any theme file from [darktile-themes](https://github.com/liamg/darktile-themes).
+Found in the config directory (see above) inside `theme.yaml`. You can replace this file with a symlink or any theme file from [darktile-themes](https://github.com/NotNoss/darktile-themes).
 
 
 ```yaml
